@@ -21,9 +21,14 @@ def main():
     }
 
     #Add another movie to the data structure
-    about_me['movies'].append({'title' : 'brahmastra' , 'genre' : 'sifi'})
-    return
+    new_movie = {
+        'title' : 'brahmastra',
+        'genre' : 'sifi'
+    }
+    about_me['movies'].append(new_movie)
     
+
+  
 
     
     
